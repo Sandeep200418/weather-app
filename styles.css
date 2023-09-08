@@ -134,14 +134,19 @@ footer {
   }
   @media screen and (max-width: 768px) {
     input {
-      width: 90%; 
+      width: 90%;
     }
   
     #search-button {
-      width: 30%; 
-      margin-top: 10px; 
+      width: 30%;
+      margin-top: 10px;
+    }
+  
+    .mm {
+      flex-direction: column; /* Change flex-direction to column for smaller screens */
+      align-items: center;
     }
     footer {
-        font-size: 10px; /
+        font-size: 10px; 
     }
   }
