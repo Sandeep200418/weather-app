@@ -137,16 +137,18 @@ footer {
       width: 90%;
     }
   
-    #search-button {
-      width: 30%;
-      margin-top: 10px;
-    }
-  
     .mm {
-      flex-direction: column; /* Change flex-direction to column for smaller screens */
+      flex-direction: column;
       align-items: center;
     }
+  
+    #search-button {
+      width: 30%; 
+      margin-top: 10px;
+      align-self: flex-start; 
+    }
+  
     footer {
-        font-size: 10px; 
+      font-size: 10px;
     }
   }
